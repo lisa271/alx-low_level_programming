@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - print alphabet all in lowercse
- */
+ *print_alphabet - print alphabet all in lowercse
+  */
 void print_alphabet(void)
 {
 	char letter;
