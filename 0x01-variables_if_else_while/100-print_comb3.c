@@ -7,9 +7,9 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 34; x <= 45; x++)
+	for (x = 48; x <= 56; x++)
 	{
-		for (y = 35; y <= 46; y++)
+		for (y = 49; y <= 46; y++)
 		{
 			if (y > x)
 			{
@@ -26,4 +26,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
