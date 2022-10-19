@@ -29,3 +29,4 @@ for (a = 0; a < 100; a++)
 	}
 	putchar('\n');
 	return (0);
+}
