@@ -14,7 +14,7 @@ int main(void)
 		if (fibosum > 4000000)
 			break;
 		if ((fibosum % 2) == 0)
-			tot_sum += fibosum;
+			total_sum += fibosum;
 		fibo1 = fibo2;
 		fibo2 = fibosum;
 	}
