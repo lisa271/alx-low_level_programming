@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int count;
+	int num;
 	unsigned long fibo1 = 0, fibo2 = 1, sum;
 	unsigned long fibo1_half1, fibo1_half2, fibo2_half1, fibo2_half2;
 	unsigned long half1, half2;
@@ -15,14 +15,14 @@ int main(void)
 	{
 		sum = fibo1 + fibo2;
 		printf("%lu, ", sum);
-		fib1 = fibo2;
+		fib01 = fibo2;
 		fibo2 = sum;
 	}
 	fibo1_half1 = fibo1 / 10000000000;
 	fibo2_half1 = fib02 / 10000000000;
 	fibo1_half2 = fibo1 % 10000000000;
 	fibo2_half2 = fib02 % 10000000000;
-	for (count = 93; count < 99; count++)
+	for (num = 93; num < 99; num++)
 	{
 		half1 = fib01_half1 + fibo2_half1;
 		half2 = fibo1_half2 + fibo2_half2;
