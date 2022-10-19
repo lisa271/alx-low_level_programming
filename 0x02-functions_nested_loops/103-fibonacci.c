@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints sum of even valued_numbers
- * followed y new line
+ * followed by new line
+ *Return: 0
  */
 int main(void)
 {
