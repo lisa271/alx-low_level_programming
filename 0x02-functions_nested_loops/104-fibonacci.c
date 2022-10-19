@@ -15,16 +15,16 @@ int main(void)
 	{
 		sum = fibo1 + fibo2;
 		printf("%lu, ", sum);
-		fib01 = fibo2;
+		fibo1 = fibo2;
 		fibo2 = sum;
 	}
 	fibo1_half1 = fibo1 / 10000000000;
-	fibo2_half1 = fib02 / 10000000000;
+	fibo2_half1 = fibo2 / 10000000000;
 	fibo1_half2 = fibo1 % 10000000000;
-	fibo2_half2 = fib02 % 10000000000;
+	fibo2_half2 = fibo2 % 10000000000;
 	for (num = 93; num < 99; num++)
 	{
-		half1 = fib01_half1 + fibo2_half1;
+		half1 = fibo1_half1 + fibo2_half1;
 		half2 = fibo1_half2 + fibo2_half2;
 		if (fibo1_half2 + fibo2_half2 > 9999999999)
 		{
