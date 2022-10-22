@@ -1,4 +1,6 @@
-#include "main.h"
+#include "main.h:q
+#:q
+#"
 /**
  * _isupper - uppercase letters
  * @c: character to check
