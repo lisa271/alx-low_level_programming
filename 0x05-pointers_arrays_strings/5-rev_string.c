@@ -2,7 +2,8 @@
 /**
  * rev_string - reverse string
  * _putchar - print each character
-Return: 0
+ * @s: check character
+ * Return: 0
 */
 void rev_string(char *s)
 {
